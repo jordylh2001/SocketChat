@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="499.0" prefWidth="970.0" spacing="20.0" xmlns="http://javafx.com/javafx/1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SecondaryController">
+    <children>
+      <ToolBar prefHeight="76.0" prefWidth="891.0">
+        <items>
+            <ImageView fx:id="avatar" fitHeight="67.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="user_name" prefHeight="18.0" prefWidth="68.0" text="nickname" />
+            <CheckBox fx:id="checkedit" mnemonicParsing="false" onAction="#habilitar" text="editar" />
+            <Label fx:id="label1" text="Name" />
+            <TextField fx:id="name2" editable="false" visible="false" />
+            <Label fx:id="label2" text="Password" visible="false" />
+            <TextField fx:id="pass2" editable="false" visible="false" />
+            <Label fx:id="label3" text="Avatar" visible="false" />
+            <TextField fx:id="imag2" editable="false" visible="false" />
+            <Button fx:id="editar" mnemonicParsing="false" onAction="#Editar" text="Editar" visible="false" />
+        </items>
+      </ToolBar>
+      <VBox prefHeight="410.0" prefWidth="891.0">
+         <children>
+            <TextArea fx:id="chat" editable="false" prefHeight="324.0" prefWidth="416.0" />
+            <ToolBar prefHeight="36.0" prefWidth="416.0">
+              <items>
+                  <TextField fx:id="mensajeTF" prefHeight="28.0" prefWidth="753.0" />
+                  <Button fx:id="envioBt" mnemonicParsing="false" onAction="#Enviar" prefHeight="26.0" prefWidth="72.0" text="Enviar" />
+                  <Button mnemonicParsing="false" text="Archivo" onAction="#files"/>
+              </items>
+            </ToolBar>
+         </children>
+      </VBox>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

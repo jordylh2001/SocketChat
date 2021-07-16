@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SocketChat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SocketChat_jar</output-path>
+    <root id="archive" name="SocketChat.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="SocketChat" />
+      <element id="extracted-dir" path="$javaFx$/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$javaFx$/javafx.web.jar" path-in-jar="/" />
+      <element id="file-copy" path="$javaFx$/libavplugin-54.so" />
+      <element id="file-copy" path="$javaFx$/libavplugin-56.so" />
+      <element id="file-copy" path="$javaFx$/libavplugin-57.so" />
+      <element id="file-copy" path="$javaFx$/libavplugin-ffmpeg-56.so" />
+      <element id="file-copy" path="$javaFx$/libavplugin-ffmpeg-57.so" />
+      <element id="file-copy" path="$javaFx$/libdecora_sse.so" />
+      <element id="file-copy" path="$javaFx$/libfxplugins.so" />
+      <element id="file-copy" path="$javaFx$/libglass.so" />
+      <element id="file-copy" path="$javaFx$/libglassgtk2.so" />
+      <element id="file-copy" path="$javaFx$/libglassgtk3.so" />
+      <element id="file-copy" path="$javaFx$/libgstreamer-lite.so" />
+      <element id="file-copy" path="$javaFx$/libjavafx_font.so" />
+      <element id="file-copy" path="$javaFx$/libjavafx_font_freetype.so" />
+      <element id="file-copy" path="$javaFx$/libjavafx_font_pango.so" />
+      <element id="file-copy" path="$javaFx$/libjavafx_iio.so" />
+      <element id="file-copy" path="$javaFx$/libjfxmedia.so" />
+      <element id="file-copy" path="$javaFx$/libjfxwebkit.so" />
+      <element id="file-copy" path="$javaFx$/libprism_common.so" />
+      <element id="file-copy" path="$javaFx$/libprism_es2.so" />
+      <element id="file-copy" path="$javaFx$/libprism_sw.so" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,3 @@
+nickname: jordy
+image: src/main/imagenes/moxxie.jpg
+password: 1234
